@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade Input Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+ 
+</head>
+<body>
+
+  <div class="container">
+    <div class="grade-form">
+      <h3 class="text-center mb-4">Enter your Grade Analyzer</h3>
+      <form>
+        <div class="row justify-content-center">
+          <div class="col-md-4 subject-separate text-center">
+            <img src="https://thumbs.dreamstime.com/b/seamless-pattern-theme-school-education-subject-mathematics-beige-hand-drawn-graphics-formulas-icons-brown-122401313.jpg" alt="Math">
+            <label for="mathGrade" class="form-label">Math</label>
+            <input type="number" class="form-control" id="mathGrade" placeholder="Enter Math grade">
+          </div>
+          <div class="col-md-4 subject-separate text-center">
+            <img src="https://marketplace.canva.com/EAEz46cZnc4/2/0/1131w/canva-scientific-method-education-poster-Pe5YYRBb0wU.jpg" alt="Science">
+            <label for="sciGrade" class="form-label">Science</label>
+            <input type="number" class="form-control" id="sciGrade" placeholder="Enter Science grade">
+          </div>
+          <div class="col-md-4 subject-separate text-center">
+            <img src="https://cdn8.bigcommerce.com/s-x3k2fq1/images/stencil/2048x2048/products/1709/3825/01_P30_11_POPULAR_PUNCTUATION_WEB__73818.1435844646.jpg?c=2" alt="English">
+            <label for="engGrade" class="form-label">English</label>
+            <input type="number" class="form-control" id="engGrade" placeholder="Enter English grade">
+          </div>
+        </div>
+        <div class="mt-4">
+          <button type="button" class="btn btn-warning w-100" onclick="Grades()">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+ 
+<p> Mergal, 9-S</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
